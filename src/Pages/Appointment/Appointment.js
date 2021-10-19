@@ -6,45 +6,36 @@ const Appointment = () => {
   return (
     <div className=" container background-style my-4 p-5">
       <h2>Make an Appointment</h2>
-      <div className="row w-50 mx-auto ml-3">
-        <div className=" col-sm-6 col-md-6 g-3  d-flex align-items-center justify-content-center">
+      <div className="row justify-content-center">
+        <div className="col-12 col-md-8 d-flex flex-column flex-md-row">
           <input
-            className="input-style"
+            className="input-style w-100 w-md-50 mr-10"
             type="text"
             placeholder="Type your name"
           />
-        </div>
-        <div className="col-xs-6 col-sm-6 col-md-6 g-3  d-flex align-items-center justify-content-center">
           <input
-            className="input-style"
+            className="input-style w-100 w-md-50 "
             type="email"
             name="email"
             id=""
             placeholder="enter your email"
           />
         </div>
-        <br />
-        <br />
-        <div className="col-sm-6 col-md-6 g-3  d-flex align-items-center justify-content-center">
+        <div className="col-12 col-md-8 d-flex flex-column flex-md-row">
           <input
-            className="input-style"
+            className="input-style w-100 w-md-50 mr-10"
             type="text"
             placeholder="Date"
           />
-        </div>
-        <div className="col-xs-6 col-sm-6 col-md-6 g-3  d-flex align-items-center justify-content-center">
           <input
-            className="input-style"
+            className="input-style w-100 w-md-50"
             type="email"
             name="email"
             id=""
             placeholder="Phone Number"
           />
         </div>
-        <br />
-        <br />
-        <br />
-        <div className="d-flex align-items-center justify-content-center">
+        <div className="col-12 col-md-8">
           <textarea
             className="w-100 mx-auto my-3"
             name="messege"

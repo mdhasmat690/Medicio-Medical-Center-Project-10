@@ -2,3 +2,7 @@
 .background-style {
     background-color: #4ACCD1;
 }
+
+.mr-10 {
+    margin-right: 10px !important;
+}
