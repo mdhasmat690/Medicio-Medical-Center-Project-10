@@ -1,0 +1,31 @@
+*:focus{
+    outline: none;
+}
+.banner-style {
+    background-image: url('../../imges/bg_image_1.jpg');
+    height: 75vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+
+
+
+.btn-style{
+    background-color: #00D9A5;
+    width: 120px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.btn-style {
+    margin: 10px;
+}

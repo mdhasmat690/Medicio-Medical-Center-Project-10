@@ -1,0 +1,50 @@
+[
+    {
+      "name": "Dr. Stein Albert",
+      "_id": 1,
+      "category": "Cardiology",
+      "desc": "Cardiology is the study and treatment of disorders of the heart and the blood vessels.Cardiology is the study and treatment of disorders of the heart and the blood.",
+      "img": "https://i.ibb.co/DL5FCND/1.jpg",
+      "fulldtls": "Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine. ... A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system.Cardiology is the study and treatment of disorders of the heart and the blood vessels. A person with heart disease or cardiovascular disease may be referred to a cardiologist. Cardiology is a branch of internal medicine. ... A cardiologist specializes in diagnosing and treating diseases of the cardiovascular system."
+    },
+    {
+      "name": "Dr. Alexa Melvin",
+      "_id": 2,
+      "category": "Dental",
+      "desc": "The field of dentistry or dental medicine includes teeth as well as other aspects of the craniofacial complex including the temporomandibular joint and other ...",
+      "img": "https://i.ibb.co/yF2N2XM/2.jpg",
+      "fulldtls": "The field of dentistry or dental medicine includes teeth as well as other aspects of the craniofacial complex including the temporomandibular joint and other ...The field of dentistry or dental medicine includes teeth as well as other aspects of the craniofacial complex including the temporomandibular joint and other ...The field of dentistry or dental medicine includes teeth as well as other aspects of the craniofacial complex including the temporomandibular joint and other ..."
+    },
+    {
+      "name": "Dr. Rabea Khan",
+      "_id": 3,
+      "category": "General Health",
+      "desc": "Being healthy means understanding how your body works and what it needs to stay healthy. Learn the definition of some general.",
+      "img": "https://i.ibb.co/LzYH212/img-1.png",
+      "fulldtls": "DGHS stands for Directorate General of Health Services. ... Peoples Republic of Bangladesh Sheikh Hasina visited the ministry of Health and Family Welfare .DGHS stands for Directorate General of Health Services. ... Peoples Republic of Bangladesh Sheikh Hasina visited the ministry of Health and Family Welfare .DGHS stands for Directorate General of Health Services. ... Peoples Republic of Bangladesh Sheikh Hasina visited the ministry of Health and Family Welfare ."
+    },
+    {
+      "name": "Dr. Sopna Akter",
+      "_id": 4,
+      "category": "Surgery",
+      "desc": "Surgery is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological",
+      "img": "https://i.ibb.co/YNbK6pt/img-3.png",
+      "fulldtls": "Surgery is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological condition such as a disease or injury, to help improve bodily function, appearance, or to repair unwanted ruptured areas.Surgery is a medical or dental specialty that uses operative manual and instrumental techniques on a person to investigate or treat a pathological condition such as a disease or injury, to help improve bodily function, appearance, or to repair unwanted ruptured areas."
+    },
+    {
+      "name": "Dr. Gp Sha",
+      "_id": 5,
+      "category": "Orthopedic",
+      "desc": "Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopaedic surgeons use both ...",
+      "img": "https://i.ibb.co/k2K1p76/3.jpg",
+      "fulldtls": "Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopaedic surgeons use both ...Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopaedic surgeons use both ...Orthopaedic surgery or orthopaedics, is the branch of surgery concerned with conditions involving the musculoskeletal system. Orthopaedic surgeons use both ..."
+    },
+    {
+      "name": "Dr. Himu khan",
+      "_id": 6,
+      "category": "Medicine",
+      "desc": "The National Library of Medicine (NLM), on the NIH campus in Bethesda, Maryland, is the worlds largest biomedical library and the developer of electronic ...",
+      "img": "https://i.ibb.co/TbCcq5v/4.jpg",
+      "fulldtls": "The National Library of Medicine (NLM), on the NIH campus in Bethesda, Maryland, is the worlds largest biomedical library and the developer of electronic ... Medicines can treat diseases and improve your health. If you are like most people, you need to take medicine at some point in your life. Medicines can treat diseases and improve your health. If you are like most people, you need to take medicine at some point in your life."
+    }
+  ]
