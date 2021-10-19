@@ -14,9 +14,7 @@ import Appointment from "./Pages/Appointment/Appointment";
 import Home from "./Pages/Shears/Home/Home";
 import Care from "./Pages/Care/Care";
 import Error from "./Pages/Error/Error";
-import ImgSlider from "./Pages/ImgSlider/ImgSlider";
 import SignUp from "./Pages/SignUp/SignUp";
-// import "swiper/css";
 
 function App() {
   return (
@@ -26,11 +24,7 @@ function App() {
           <Header></Header>
           <Switch>
             <Route exact path="/">
-              <TopBanner></TopBanner>
-              <Services></Services>
-              <HealthCenter></HealthCenter>
-              <Appointment></Appointment>
-            {/* <ImgSlider></ImgSlider> */}
+              <Home></Home>
             </Route>
             <Route path="/home">
               <Home></Home>
@@ -39,19 +33,18 @@ function App() {
               <Services></Services>
             </Route>
             <PrivetRoute path="/healthCenter">
-            <HealthCenter></HealthCenter>
+              <HealthCenter></HealthCenter>
             </PrivetRoute>
             <Route path="/appointment">
-            <Appointment></Appointment>
+              <Appointment></Appointment>
             </Route>
             <Route exact path="/care">
-            <Care></Care>
+              <Care></Care>
             </Route>
             <Route exact path="/login">
               <Login></Login>
             </Route>
             <Route exact path="/signUp">
-              
               <SignUp></SignUp>
             </Route>
             <PrivetRoute exact path="/serviceDetals/:serviceId">

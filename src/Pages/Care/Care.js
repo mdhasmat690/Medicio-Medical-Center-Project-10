@@ -4,7 +4,7 @@ import "./Care.css";
 const Care = () => {
   return (
     <div className="my-3">
-        <h2 className="text-danger">Our 24Hour Care List</h2>
+      <h2 className="text-danger">Our 24Hour Care List</h2>
       <div className="row container mx-auto">
         <div className="col-md-6">
           <img
@@ -30,19 +30,25 @@ const Care = () => {
             <div class="col">
               <div className="text-style">
                 <h3 className="text-primary">Nursing Services</h3>
-                <p>Directorate of Nursing Services Administration and Management.</p>
+                <p>
+                  Directorate of Nursing Services Administration and Management.
+                </p>
               </div>
             </div>
             <div class="col">
               <div className="text-style">
                 <h3 className="text-primary">Neurology</h3>
-                <p>Neurology is the branch of medicine concerned with the study.</p>
+                <p>
+                  Neurology is the branch of medicine concerned with the study.
+                </p>
               </div>
             </div>
             <div class="col">
               <div className="text-style">
                 <h3 className="text-primary">Pharmacy</h3>
-                <p>Pharmacy is the clinical health science that links medica.</p>
+                <p>
+                  Pharmacy is the clinical health science that links medica.
+                </p>
               </div>
             </div>
             <div class="col">

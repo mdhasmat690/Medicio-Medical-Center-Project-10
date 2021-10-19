@@ -41,16 +41,19 @@ const Header = () => {
               Home
             </Nav.Link>
             <Nav.Link as={Link} to="/healthCenter">
-              HealthCenter
+              Doctor
             </Nav.Link>
             <Nav.Link as={Link} to="/appointment">
               Appointment
+            </Nav.Link>
+            <Nav.Link as={Link} to="/care">
+              News
             </Nav.Link>
             <Nav.Link as={Link} to="/signUp">
               signUp
             </Nav.Link>
 
-            {(user?.email || user?.displayName) ? (
+            {user?.email || user?.displayName ? (
               <Button onClick={logOut} variant="light">
                 Logout
               </Button>
@@ -61,7 +64,7 @@ const Header = () => {
             )}
 
             <Navbar.Text>
-              Signed in as:{" "}
+              Signed in as:
               <a href="#login">{user.displayName || user.email}</a>
             </Navbar.Text>
           </Navbar.Collapse>

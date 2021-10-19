@@ -1,26 +1,22 @@
-import React from 'react';
-import { Button } from 'react-bootstrap';
-import useAuth from '../../Hooks/UseAuth';
+import React from "react";
+import { Button } from "react-bootstrap";
+import useAuth from "../../Hooks/UseAuth";
 
 const SignUp = () => {
-    const {
-        handleEmailPassowrdSignUp,
-        handleEmail,
-        handlePassowrd,
-      } = useAuth();
-    return (
-        <div>
+  const { handleEmailPassowrdSignUp, handleEmail, handlePassowrd } = useAuth();
+  return (
+    <div>
       <div className="text container ">
         <div className="row">
           <div className="login-area col-md-6">
             <div>
-              <div className="login-style d-flex align-items-center justify-content-center">
+              <div className="login-style d-flex justify-content-center">
                 <div>
                   <div className="login-style">
                     <h2 className="text-primary">Pease SignUp</h2>
                     <form onSubmit={handleEmailPassowrdSignUp}>
                       <input
-                       onChange={handleEmail}
+                        onChange={handleEmail}
                         className="input-style"
                         type="email"
                         name="email"
@@ -28,7 +24,7 @@ const SignUp = () => {
                       />
                       <br />
                       <input
-                      onChange={handlePassowrd}
+                        onChange={handlePassowrd}
                         className="input-style"
                         type="password"
                         name="password"
@@ -59,7 +55,7 @@ const SignUp = () => {
 
       <br />
     </div>
-    );
+  );
 };
 
 export default SignUp;
